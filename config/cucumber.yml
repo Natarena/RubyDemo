@@ -1,0 +1,22 @@
+#config/cucumber.yml
+##YAML Template
+
+android: PLATFORM=android -f html -o features/reports.html
+
+ios: PLATFORM=ios -f html -o features/reports.html
+
+web: PLATFORM=web -f json -o features/reports.json
+
+chrome: BROWSER=chrome
+
+firefox: BROWSER=firefox
+
+ie: BROWSER=ie 
+
+default: PLATFORM=chrome --exclude features/android
+
+
+
+#-f html -o features/reports.html
+
+#-f json -o features/reports.json

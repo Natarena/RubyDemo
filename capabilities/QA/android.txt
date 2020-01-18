@@ -1,0 +1,11 @@
+[caps]
+platformName = "Android"
+deviceName = "emulator-5554"
+appPackage = "com.accenture.autobusca"
+appActivity = ".MainActivity"
+automationName = "UiAutomator2"
+autoGrantPermissions = true
+noReset = false
+newCommandTimeout = "40000"
+resetKeyboard = true
+unicodeKeyboard = true

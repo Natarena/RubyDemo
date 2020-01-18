@@ -1,0 +1,8 @@
+[caps]
+platformName = 	"iOS"
+platformVersion = "12.4"
+deviceName = "iPhone Xr"
+udid = "3EC4186F-3A0A-4039-BFF0-209FEA3D8CC6"
+connectHardwareKeyboard = true
+app = "features/support/app/ios/Auto Busca.app"
+noReset = false
